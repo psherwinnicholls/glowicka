@@ -2,30 +2,92 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Alicja Głowicka</title>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;600&family=EB+Garamond:wght@400;500&display=swap" rel="stylesheet"/>
-    <style>
-      body{
-        font-family: 'Cormorant Garamond', serif;
-            }
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+    <style type="text/css">
+      body {
+        font-family: 'Helvetica Neue', sans-serif;
+        /* font-family: 'Cormorant Garamond', serif; */
+        font-display: swap;
+      }
+      main {
+        max-width:600px;
+        margin: 4em auto;
+      }
+      section {
+        margin: 3em 0;
+      }
+      h1 {
+        font-size: 3em;
+        font-weight: 500;
+      }
+      p {
+        font-size: 1.3em;
+        /* font-size: 1.5em; */
+        font-weight: 500;
+      }
+      a {
+        transition: filter 0.2s ease;
+      }
+      a:hover {
+        filter: brightness(500%);
+      }
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
+      li {
+        padding: 5px 0 5px 70px;
+      }
+      small {
+        font-size: 1em;
+      }
     </style>
+
   </head>
   <body>
-    <h1>Hey, I&rsquo;m Alicja Głowicka</h1>
-    <h2>A creative brand manager with 9 years experience in the skincare industry.</h2>
-    <h2>Currently at <a href="#">This Works</a>. Previously at <a href="www.unilever.co.uk
-At">Unilever</a> and <a href="www.nivea.co.uk">Nivea</a>.</h2>
-    <h3>Contact me</h3>
-    <ul>
-      <!-- <li>
-        Email me at <a href="mailto:alicja@głowicka.com">alicja@głowicka.com</a>
-      </li> -->
-      <li>
-        <a href="https://www.linkedin.com/in/alicja-glowicka-04608734/?originalSubdomain=uk">LinkedIn</a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/alicjaglowicka/">Instagram</a>
-      </li>
-    </ul>
+    <main>
+
+      <section>
+        <h1>Hi there, <br/>Alicja Głowicka here.</h1>
+        <p>A creative brand manager, content designer &amp; hand model. With 9 years experience in the skincare industry.</p>
+        <p>Currently at <a href="https://www.thisworks.com">This Works</a>, previously at <a href="https:/www.unilever.co.uk">Unilever</a> &amp; <a href="https://www.nivea.co.uk">Nivea</a>.</p>
+      </section>
+
+      <section>
+        <p>I've launched<sup>*</sup>:</p>
+        <ul>
+
+          <li style='background: url("./clean-hands.jpg") left center/50px no-repeat;'>
+            <p><a href="https://www.thisworks.com/stress-check-clean-hands-500ml">stress check clean hands</a> in 6 weeks, for This Works</p>
+          </li>
+
+          <li style='background: url("./cbd-booster.png") left center/50px no-repeat;'>
+            <p><a href="https://www.thisworkscbd.com/collections/cbd-boosters">CBD boosters</a> for This Works</p>
+          </li>
+
+          <li style="background: url('./beauty_sleep_lotion.png') left center/50px no-repeat;">
+            <p>Dove&rsquo;s <a href="https://www.dove.com/uk/skin-care/hand-cream/dermaspa-beauty-sleep-overnight-manicure-hand-cream.html">DermaSpa sleep range</a></p>
+          </li>
+
+          <li style="background: url('./action-duchenne.png') left center/50px no-repeat;">
+            <p>a content audit for <a href="https://www.actionduchenne.org/">Action Duchenne</a></p>
+          </li>
+
+          <li style="background: url('./cdl.jpg') left center/50px no-repeat;">
+            <p>a <a href="https://contentdesign.london/content-process/data-and-user-needs-what-we-did-in-the-content-design-academy/">blog post</a> for Content Design London</p>
+          </li>
+
+        </ul>
+      </section>
+
+      <section>
+        <p>Get in touch on <a href="https://www.linkedin.com/in/alicja-glowicka-04608734">LinkedIn</a> or <a href="https://www.instagram.com/alicjaglowicka/">Instagram</a>.</p>
+      </section>
+
+      <small><sup>*</sup>as part of an incredible team.</small>
+
+    </main>
   </body>
 </html>
