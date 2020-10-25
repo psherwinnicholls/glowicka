@@ -1,3 +1,17 @@
-html{
+html {
   scroll-behavior: smooth;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #212121;
+    color: white;
+  }
+  h1,
+  h2,
+  h3,
+  p,
+  strong {
+    color: white;
+  }
 }
